@@ -1,0 +1,169 @@
+---
+title: "Graph"
+author: "Claudia"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#Tableau de bord (Dashboard)
+```{r}
+library (readr)
+dataEtudiant <- read_csv("D:/Emploi/OWSD_BENIN/Sciences_Donnees/Projet_SDA_FacConnect_Benin/Base_Donnees_Etudiant.csv")
+dataEtudiant
+dataEtudiantsum<- glm(Adopt_PE_Num ~Appa_Dispo_Num , data = dataEtudiant, family = "binomial")
+summary(dataEtudiantsum)
+```
+```{r}
+install.packages ("tidyr")
+```
+
+
+```{r}
+library (readr)
+library(tidymodels)
+
+dataEtudiant <- read_csv("D:/Emploi/OWSD_BENIN/Sciences_Donnees/Projet_SDA_FacConnect_Benin/Base_Donnees_Etudiant.csv")
+mutate(across(where(is.character), as.factor))
+dim(dataEtudiant)
+```
+
+#Accès à l'internet par les étudiants significatif au seuil de 1%
+```{r}
+library (readr)
+dataEtudiant <- read_csv("D:/Emploi/OWSD_BENIN/Sciences_Donnees/Projet_SDA_FacConnect_Benin/Base_Donnees_Etudiant.csv")
+dataEtudiant
+logitEtu1<- glm(Adopt_PE_Num ~Ac_Internet_Num + Appa_Dispo_Num + Usag_PEEtudian_Num, data = dataEtudiant, family = "binomial")
+summary(logitEtu1)
+```
+
+```{r}
+library (readr)
+dataEtudiant <- read_csv("D:/Emploi/OWSD_BENIN/Sciences_Donnees/Projet_SDA_FacConnect_Benin/Base_Donnees_Etudiant.csv")
+dataEtudiant
+logitEtuAvant<- glm(Adopt_PE_Num ~Info_MisajourPE_Num + Suiv_Note + Suiv_Devoir + Calend_Sco + Com_Enseign + Aces_Res_Pedag + Aces_Frais_Acad, data = dataEtudiant, family = "binomial")
+summary(logitEtuAvant)
+```
+```{r}
+library (readr)
+dataEtudiant <- read_csv("D:/Emploi/OWSD_BENIN/Sciences_Donnees/Projet_SDA_FacConnect_Benin/Base_Donnees_Etudiant.csv")
+dataEtudiant
+logitEtuAvan<- glm(Adopt_PE_Num ~Tunivers_Num + Avantag_Consult_Note + Avantag_Epreuve + Avantag_Echang_Prof + Avantag_InfoAdminis +Avantag_SuiviPresenc + Avantag_EmploiCurricula + Preocup_Confidenc_Num + Preocup_ConfidencVi, data = dataEtudiant, family = "binomial")
+summary(logitEtuAvan)
+```
+
+
+```{r}
+library (readr)
+dataEtudiant <- read_csv("D:/Emploi/OWSD_BENIN/Sciences_Donnees/Projet_SDA_FacConnect_Benin/Base_Donnees_Etudiant.csv")
+dataEtudiant
+logitEtuAvan<- glm(Adopt_PE_Num ~Avantag_Consult_Note + Avantag_Epreuve + Avantag_SuiviPresenc+ Avantag_InfoAdminis, data = dataEtudiant, family = "binomial")
+summary(logitEtuAvan)
+```
+
+```{r}
+library (readr)
+dataEtudiant <- read_csv("D:/Emploi/OWSD_BENIN/Sciences_Donnees/Projet_SDA_FacConnect_Benin/Base_Donnees_Etudiant.csv")
+dataEtudiant
+logitEtuAvan1<- glm(Adopt_PE_Num ~ Avantag_EmploiCurricula + Avantag_SuiviPresenc+ Avantag_InfoAdminis, data = dataEtudiant, family = "binomial")
+summary(logitEtuAvan1)
+```
+
+```{r}
+library (readr) Avantag_SuiviPresenc + Avantag_EmploiCurricula
+dataEtudiant <- read_csv("D:/Emploi/OWSD_BENIN/Sciences_Donnees/Projet_SDA_FacConnect_Benin/Base_Donnees_Etudiant.csv")
+dataEtudiant
+counts <- table(dataEtudiant$Sexe, dataEtudiant$Age1) # Faire le décompte de chaque réponse sur le sexe
+counts # Voir le tableau de décompte
+# Faire un diagramme en bâton avec les valeurs du décompte
+barplot(counts, legend.text = rownames(counts), beside = TRUE)
+```
+
+```{r}
+library (readr)
+dataEtudiant <- read_csv("D:/Emploi/OWSD_BENIN/Sciences_Donnees/Projet_SDA_FacConnect_Benin/Base_Donnees_Etudiant.csv")
+dataEtudiant
+countsEtude <- table(dataEtudiant$TUnivers, dataEtudiant$Niv_Etude) # Faire le décompte de chaque réponse sur le sexe
+countsEtude # Voir le tableau de décompte
+# Faire un diagramme en bâton avec les valeurs du décompte
+barplot(countsEtude,legend.text = rownames(countsEtude), beside = TRUE)
+
+```
+
+```{r}
+library (readr)
+dataEtudiant <- read_csv("D:/Emploi/OWSD_BENIN/Sciences_Donnees/Projet_SDA_FacConnect_Benin/Base_Donnees_Etudiant.csv")
+dataEtudiant
+countsInt <- table(dataEtudiant$Ac_Internet, dataEtudiant$Appa_Dispo) # Faire le décompte de chaque réponse sur le sexe
+countsInt # Voir le tableau de décompte
+# Faire un diagramme en bâton avec les valeurs du décompte
+barplot(countsInt,legend.text = rownames(countsInt), beside = TRUE)
+
+boxplot(dataEtudiant$Age1,
+        ylab="Age1",
+        main= "Boîte à moustache de la population d'étude selon l'âge", 
+        col= "#e63946",
+        las= 1,
+        cex.main= 1.7,
+        cex.lab=1.2,
+        sub="Donnees",
+        notch=TRUE,
+        ylim= c(20, 40)
+        )
+```
+
+```
+
+```{r}
+library (readr)
+data <- read_csv("D:/Emploi/OWSD_BENIN/Sciences_Donnees/Projet_SDA_FacConnect_Benin/base_donnee.csv")
+data
+countsI <- table(data$Cat_Acteur, data$Sexe) # Faire le décompte de chaque réponse sur le sexe
+countsI # Voir le tableau de décompte
+# Faire un diagramme en bâton avec les valeurs du décompte
+barplot(countsI,legend.text = rownames(countsI), beside = TRUE)
+
+```
+
+```{r}
+library (readr)
+data <- read_csv("D:/Emploi/OWSD_BENIN/Sciences_Donnees/Projet_SDA_FacConnect_Benin/base_donnee.csv")
+data
+countsII <- table(data$Cat_Acteur, data$Age) # Faire le décompte de chaque réponse sur le sexe
+countsII # Voir le tableau de décompte
+# Faire un diagramme en bâton avec les valeurs du décompte
+barplot(countsII,legend.text = rownames(countsII), beside = TRUE)
+```
+
+```{r}
+library (readr)
+# Faire un diagramme en bâton avec les valeurs du décompte
+hist (dataEtudiant$Age1)
+```
+
+```{r}
+library (readr)
+data <- read_csv("D:/Emploi/OWSD_BENIN/Sciences_Donnees/Projet_SDA_FacConnect_Benin/base_donnee.csv")
+data
+countsII <- table(data$Cat_Acteur, data$Age) # Faire le décompte de chaque réponse sur le sexe
+countsII # Voir le tableau de décompte
+# Faire un diagramme en bâton avec les valeurs du décompte
+barplot(countsII,legend.text = rownames(countsII), beside = TRUE)
+# Produce a bar chart
+
+boxplot(data$Age1,
+        ylab="Age1",
+        main= "Boîte à moustache de la population d'étude selon l'âge", 
+        col= "#e63946",
+        las= 1,
+        cex.main= 1.7,
+        cex.lab=1.2,
+        sub="Donnees",
+        notch=TRUE,
+        ylim= c(20, 80)
+        )
+```
+

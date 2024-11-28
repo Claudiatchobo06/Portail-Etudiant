@@ -1,0 +1,309 @@
+---
+title: "Consentement d'adoption d'un portail étudiant dans l'enseignement supérieur au Bénin."
+author: "Pamela AFOKPE  Florence ANATO  Sarah MIDJANGNINOU  Carline SANTOS Claudia TCHOBO"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+<style>
+body {
+text-align: justify}
+</style>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+**Programme de formation en Science des Données au Féminin en Afrique Francophone**
+
+                   
+**RAPPORT DE FIN DE FORMATION**
+
+                    
+**Diplôme: Certification en Science des données**
+
+
+**Groupe n° : 4 ** 
+
+**Comité d’organisation :**                                          
+   Pr. Thierry WARIN
+   Dr. Bernice BANCOLE
+   Dr. Nadejda SERO
+   Mlle Aïchata KONE
+   Mlle Wissale JOUATE
+
+
+  **Période de formation: Mars - Octobre 2023**
+
+
+# INTRODUCTION
+## Contexte et justification du projet
+Dans le monde en constante évolution de l'enseignement supérieur, les universités cherchent sans cesse des moyens d'améliorer l'expérience des étudiants, de renforcer la communication et de faciliter la gestion académique. L'un de ces moyens de transformation est l'adoption de portails étudiants, une solution numérique qui a gagné en popularité dans les universités du monde entier.
+
+Les portails étudiants sont des plateformes en ligne qui offrent aux étudiants, aux enseignants et au personnel administratif un accès centralisé à une multitude de ressources et d'informations liées à la vie universitaire. Ces portails englobent souvent des fonctionnalités telles que la gestion des cours, le suivi des résultats académiques, la communication avec les enseignants, l'accès à des ressources éducatives et la publication d'annonces importantes. L'objectif ultime est de créer un environnement numérique où l'apprentissage, la collaboration et l'administration se conjuguent pour améliorer l'efficacité et l'expérience globale de l'éducation.
+
+
+# Justification du projet
+Dans le contexte spécifique des universités du Bénin, l'adoption de portails étudiants représente une opportunité significative pour moderniser et optimiser le système éducatif. Ce pays d'Afrique de l'Ouest, riche en diversité culturelle et académique, fait face à des défis uniques en matière d'accès à l'éducation et de gestion des données académiques. L'introduction de portails étudiants pourrait non seulement simplifier ces défis, mais également offrir de nouveaux horizons d'apprentissage et de communication pour les étudiants, les enseignants et les parents. La principale question de recherche qui se pose dans cette étude est *quels sont les facteurs clés qui influencent le consentement à l'adoption d'un portail étudiant dans les universités du Bénin, et comment ces facteurs affectent-ils la mise en œuvre réussie de ces portails dans le contexte éducatif béninois ?*
+
+Cette étude se penche sur la question cruciale de l'adoption des portails étudiants dans les universités du Bénin. Elle vise à comprendre les facteurs clés qui influencent le consentement des parties prenantes, tels que les étudiants et les enseignants, à l'égard de ces plateformes numériques. De plus, elle explore les défis potentiels et les opportunités liés à la mise en œuvre réussie de ces portails dans le contexte éducatif béninois.
+
+
+## Description du Portail Étudiant 
+Le Portail Étudiant Innovant au Bénin appelé FacConnect Bénin
+Le FacConnect Bénin serait une plateforme en ligne intégrée conçue pour améliorer l'expérience éducative des étudiants, des parents et des enseignants. Cette solution numérique permettra de centraliser et de donner l'accès à une variété de ressources et de services éducatifs, révolutionnant ainsi la manière dont l'éducation est gérée et suivie au Bénin. En d’autres termes, cette solution innovante vise à moderniser et à simplifier l'accès à l'information éducative tout en favorisant la communication et la collaboration au sein de la communauté éducative.
+
+
+## Objectifs
+
+# 1. Objectifs et hypothèses de recherche
+## 1.1. Objectifs général et spécifiques
+Ce projet a pour objectif général de mieux appréhender  l’état de la biodiversité des cours d’eau sélectionnés dans le cadre de cette étude grâce au séquençage génétique.
+
+De façon spécifique, il s'agit de:
+
+- caractériser les étudiants en fonction de leur consentement d'adoption du portail étudiant;
+
+- analyser l'influence des principaux facteurs sur la mise en œuvre et l'utilisation réussie du portail étudiant dans le contexte éducatif béninois;
+
+- proposer des recommandations spécifiques pour les universités du Bénin afin d'améliorer l'adoption et la mise en œuvre des portails étudiants.
+
+
+## 1.2. Hypothèses de l'étude
+
+- **Hypothèse 1** : Les facteurs de motivation (valeur ajoutée du portail étudiant,facilité d'utilisation et disponibilité des ressources en ligne) influencent positivement le consentement des étudiants à l'adoption de ces portails dans les universités du Bénin.
+
+- **Hypothèse 2** : Les préoccupations liées à la confidentialité et à la sécurité des données personnelles des étudiants ont un impact significatif sur leur consentement à l'adoption d'un portail étudiant, et ces préoccupations peuvent être un obstacle majeur à la mise en œuvre réussie de ces portails dans le contexte éducatif béninois.
+
+- **Hypothèse 3**: La qualité de la formation et du soutien offerts aux étudiants pour utiliser efficacement un portail étudiant a une influence significative sur leur consentement à l'adoption, et une meilleure formation contribue à une mise en œuvre plus réussie du portail étudiant dans les universités du Bénin.
+
+# 2. Méthodologie
+
+## 2.1 Milieu d'étude
+L'étude a été réalisée au Bénin en raison du fait qu'il constitue notre pays de provenance d'une part et où l'introduction de cette innovation devrait être une option pour améliorer le système éducatif à l'ère du digital/numérique.
+
+## 2.2 Echantillon
+La taille de l'échantillon 115 étudiants .
+
+## 2.3 Collecte de données
+Le questionnaire a été élaboré et mis en ligne via KoboCollect. La population d’étude a été sollicitée pour remplir les questionnaires en ligne. Cette méthode a été choisie du fait qu’elle permet de toucher une large population dispersée sur le territoire géographique.
+
+# 3. Résultats obtenus
+
+## 3.1 Caractérisation des étudiants en fonction de leur consentement d'adoption du portail étudiant
+
+- **Répartition des étudiants suivant leur niveau d'étude dans le type d'université**
+```{r}
+library(ggplot2) 
+library (readr)
+base <- read_csv2 ("D:/Emploi/OWSD_BENIN/Sciences_Donnees/Projet_SDA_FacConnect_Benin/Base_Donnee_114_Etudiant.csv")
+#base
+graph<-ggplot(base) +
+  aes(x = Niv_Etude, fill = TUnivers) +
+  geom_bar(position = "dodge", width=0.9) +
+  geom_text(aes(label = after_stat(count)), stat = "count", position = position_dodge(.9), vjust= "top") +
+  xlab("Niveau d'étude") +
+  ylab("Nombre d'observations") +
+  labs(fill = "Type d'université")+
+  scale_fill_manual(values = c("#A52A2A", "#FF4500")) +
+  theme_minimal()
+graph
+```
+
+### Consentement d'adoption en fonction du niveau d'étude des étudiants
+```{r}
+library(ggplot2)
+library (readr)
+base <- read_csv2 ("D:/Emploi/OWSD_BENIN/Sciences_Donnees/Projet_SDA_FacConnect_Benin/Base_Donnee_114_Etudiant.csv")
+#base
+graph1<-ggplot(base) +
+  aes(x = Adopt_PE , fill = Niv_Etude ) +
+  geom_bar(position = "dodge") +
+  geom_text(aes(label = after_stat(count)), stat = "count", position = position_dodge(.9), vjust= "top") +
+  xlab("Consentement d'adoption") +
+  ylab("Nombre d'observations") +
+  labs(fill = "Niveau d'étude")+
+  scale_fill_manual(values = c("#1E90FF", "#FF4500", "#9ACD32")) +
+  theme_minimal()
+graph1
+```
+
+## Consentement d'adoption en fonction du type d'universités fréquenté par les étudiants
+```{r}
+library(ggplot2)
+library (readr)
+base <- read_csv2 ("D:/Emploi/OWSD_BENIN/Sciences_Donnees/Projet_SDA_FacConnect_Benin/Base_Donnee_114_Etudiant.csv")
+#base
+graph2<-ggplot(base) +
+  aes(x = Adopt_PE , fill = TUnivers) +
+  geom_bar(position = "dodge") +
+  geom_text(aes(label = after_stat(count)), stat = "count", position = position_dodge(.9), vjust= "top") +
+  xlab("Consentement d'adoption du portail étudiant") +
+  ylab("Nombre d'observations") +
+  labs(fill = "Type d'université")+
+  scale_fill_manual(values = c("#FF7F50", "#6A5ACD")) +
+  theme_minimal()
+graph2
+```
+
+### Consentement d'adoption en fonction de l'âge des étudiants
+```{r}
+library(ggplot2)
+library (readr)
+base <- read_csv2 ("D:/Emploi/OWSD_BENIN/Sciences_Donnees/Projet_SDA_FacConnect_Benin/Base_Donnee_114_Etudiant.csv")
+#base
+graph3<-ggplot(base)+
+   aes(x = Age1, fill = Adopt_PE) +
+  geom_boxplot() +
+  xlab("Âge des étudiants") +
+  ylab("Nombre d'observations") +
+  labs(fill= "Consentement d'adoption")+
+  scale_fill_manual(values = c("#FF00FF", "#DDA0DD")) +
+  theme_minimal()
+graph3
+```
+
+### Consentement d'adoption en fonction du sexe des étudiants
+```{r}
+library(ggplot2)
+library (readr)
+base <- read_csv2 ("D:/Emploi/OWSD_BENIN/Sciences_Donnees/Projet_SDA_FacConnect_Benin/Base_Donnee_114_Etudiant.csv")
+#base
+graph4<-ggplot(base)+
+   aes(x = Adopt_PE , fill = Sexe) +
+  geom_bar(position="dodge") +
+  geom_text(aes(label = after_stat(count)), stat = "count", position = position_dodge(.9), vjust= "top") +
+  xlab("Sexe des étudiants") +
+  ylab("Nombre d'observations") +
+  labs(fill= "Consentement d'adoption")+
+   scale_fill_manual(values = c("#FF9999", "#66CC99")) +
+  theme_minimal()
+graph4
+```
+
+### Consentement d'adoption en fonction du type d'université des étudiants
+```{r}
+library(ggplot2)
+library (readr)
+base <- read_csv2 ("D:/Emploi/OWSD_BENIN/Sciences_Donnees/Projet_SDA_FacConnect_Benin/Base_Donnee_114_Etudiant.csv")
+#base
+graph5<-ggplot(base)+
+   aes(x = Adopt_PE , fill = TUnivers) +
+  geom_bar(position="dodge") +
+  geom_text(aes(label = after_stat(count)), stat = "count", position = position_dodge(.9), vjust= "top") +
+  xlab("Type d'université des étudiants") +
+  ylab("Nombre d'observations") +
+  labs(fill= "Consentement d'adoption")+
+   scale_fill_manual(values = c("#FF9999", "#66CC99")) +
+  theme_minimal()
+graph5
+```
+
+### Consentement d'adoption des étudiants en fonction du sexe, du type d'universités, du niveau d'étude et de l'âge
+
+```{r}
+library(ggplot2)
+library (readr)
+base <- read_csv2 ("D:/Emploi/OWSD_BENIN/Sciences_Donnees/Projet_SDA_FacConnect_Benin/Base_Donnee_114_Etudiant.csv")
+#base
+library(GGally)
+graph6 <- ggbivariate(data = base, outcome = "Adopt_PE", explanatory = c("Sexe", "TUnivers", "Niv_Etude", "Age1"))+
+  scale_fill_manual(values = c("#FF9999", "#800000")) +
+  theme_minimal()
+graph6
+```
+
+
+### Consentement d'adoption des étudiants en fonction des facteurs liés à l'accès à l'internet, la disponibilité d'un appareil pouvant permettre de se connecter à l'internet
+```{r}
+library(ggplot2)
+library (readr)
+base <- read_csv2 ("D:/Emploi/OWSD_BENIN/Sciences_Donnees/Projet_SDA_FacConnect_Benin/Base_Donnee_114_Etudiant.csv")
+#base
+library(GGally)
+graph7 <- ggbivariate(data = base, outcome = "Adopt_PE", explanatory = c("Ac_Internet", "Appa_Dispo", "Usag_PE_Etudiant"))+
+  scale_fill_manual(values = c("#FF9999", "#0000CD")) +
+  theme_minimal()
+graph7
+```
+
+### Comparaison entre la proportion des étudiants qui consentent à adopter le PE pour ses avantages dont l'information sur la mise à jour des informations, suivi de la progression du niveau académique, amélioration des échanges entre les enseignants et les étudiants
+
+```{r}
+library(ggplot2)
+library (readr)
+base <- read_csv2 ("D:/Emploi/OWSD_BENIN/Sciences_Donnees/Projet_SDA_FacConnect_Benin/Base_Donnee_114_Etudiant.csv")
+#base
+library(GGally)
+graph8 <- ggbivariate(data = base, outcome = "Adopt_PE", explanatory = c("Info_Misajour_PE", "Avis_Etudiant_Suivi",  "Avis_PE_AmelioEchang"))+
+  scale_fill_manual(values = c("#FF9999", "#9ACD32")) +
+  theme_minimal()
+graph8
+```
+
+### Comparaison entre la proportion des étudiants qui craignent que le portail étudiant (PE) soit difficile, qui sont préoccupés par la confidentialité de leurs données personnelles et qui trouvent utile de se faire former à l'utilisation du PE
+```{r}
+library(ggplot2)
+library (readr)
+base <- read_csv2 ("D:/Emploi/OWSD_BENIN/Sciences_Donnees/Projet_SDA_FacConnect_Benin/Base_Donnee_114_Etudiant.csv")
+#base
+library(GGally)
+graph9 <- ggbivariate(data = base, outcome = "Adopt_PE", explanatory = c("Craint_PE_Difficil...41", "Preocup_Confidenc", "Utilite_Form_PE"))+
+  scale_fill_manual(values = c("#FF9999", "#32CD32")) +
+  theme_minimal()
+graph9
+```
+
+
+
+### Répartition des étudiants qui trouvent utile de former à l'utilisation du PE en fonction des méthodes de formation (Présentielle, Webinaire, manuel d'utilisation, tutoriel)
+```{r}
+library(ggplot2)
+library (readr)
+base2 <- read_csv2 ("D:/Emploi/OWSD_BENIN/Sciences_Donnees/Projet_SDA_FacConnect_Benin/Base_Donnee_114_Etudiant.csv")
+#base2
+library(GGally)
+graph10 <- ggbivariate(data = base2, outcome = "Utilite_Form_PE", explanatory = c("Forma_Presentiel", "Forma_Webinaire", "Forma_Manu_Util", "Forma_Tutoriel"))+
+  scale_fill_manual(values = c("#FF9999", "#32CD32")) +
+  theme_minimal()
+graph10
+```
+
+### Répartition des étudiants qui trouvent utile de former à l'utilisation du PE en fonction des fonctionnalités espérées visionnées sur le PE (Informations sur le suivi de notes, Accès au currricula, à l'emploi du temps et à documentation )
+```{r}
+library(ggplot2)
+library (readr)
+base2 <- read_csv2 ("D:/Emploi/OWSD_BENIN/Sciences_Donnees/Projet_SDA_FacConnect_Benin/Base_Donnee_114_Etudiant.csv")
+base2
+library(GGally)
+graph11 <- ggbivariate(data = base2, outcome = "Utilite_Form_PE", explanatory = c("Info_PE_SuiviNot", "Info_PE_AcesCuricul", "Info_PE_AcesEmploi", "Info_PE_AcesDoc"))+
+  scale_fill_manual(values = c("#FF9999", "#32CD32")) +
+  theme_minimal()
+graph11
+```
+
+## 3.2 Analyse de l'influence des principaux facteurs sur la mise en œuvre et l'utilisation réussie du portail étudiant 
+```{r}
+dataPA <- read.csv2("D:/Emploi/OWSD_BENIN/Sciences_Donnees/Projet_SDA_FacConnect_Benin/Base_Donnee_114_Etudiant.csv", header=TRUE)
+dataPA
+summary (dataPA)
+dataPAlog <- glm(Adopt_PE_Num ~  Age1 + Avantag_Consult_Note + Avantag_Echang_Prof + Avantag_InfoAdminis + Avantag_EmploiCurricula + Preocup_Confidenc_Num +Avantag_SuiviPresenc + Usag_PEEtudian_Num + Craint_PE_Difficil, data = dataPA, family = "binomial")
+summary (dataPAlog) 
+```
+
+**Interprétation des données**
+La régression logistique binaire réalisée entre l'adoption du Portail Etudiant (PE) et les variables indépendantes du modèle a permis de déduire que les variables qui influencent positivement la probabilité d'adoption d'un étudiant au PE sont : l'âge (au seuil de 10 % : p-value=0,06) et la possibilité d'avoir les notes via le PE (au seuil de 1 % : p-value=0,01). L'influence positive de l'âge pourrait s'expliquer par le fait que plus l'étudiant est âgé, plus il donne moins d'importance au suivi de son évolution académique, l'essentiel pour lui est de valider et de progresser. Les plus jeunes ont plus tendance à faire attention à leur note de plus prêt. Par ricochet, l'avantage d'avoir les notes et les moyennes qu'offre le PE augmente la probabilité d'adopter le PE. En effet, cet avantage faciliterait la tâche autant aux étudiants qu'aux enseignants et réduirait la paperasse. 
+Par ailleurs, l'avantage qu'offrira le PE aux professeurs particulièrement, de suivre la présence des étudiants, influence négativement (au seuil de 10 % : p-value=0,08)la probabilité d'adopter le PE par les étudiants. Or, ce critère permettrait aux professeurs de récompenser les étudiants présents et de juger de ce qui reste encore à faire pour le bon déroulement du cours et le niveau peut-être bas des étudiants qui sont quand même présents au cours. De plus, la préoccuation des étudiants par rapport à la confidentialité de leur numéro d'accès au PE influence également négativement la probabilité d'adoption du PE (au seuil de 10 % : p-value=0,09). Celà est quand même normal et logique car la note est personnelle. C'est légitime de la part des étudiants, le système actuel où tout le monde voit les notes de tous pourrait créer des jalousies, des rivalités. Heureusement, le Portail Etudiant prendra au sérieux les questions de confidentialité et de sécurité de ces données confidentielles.     
+
+# Perspective
+Pour que ce portail étudiant soit effectif dans notre système éducatif, nous projetons:
+* concevoir une maquette du portail étudiant adapté au réalité de notre environnement académique;
+* utiliser la plateforme Mooddle pour pouvoir concevoir le portail étudiant;
+* établir une synergie d'action entre les différentes parties:
+  * le gouvernement à travers le Ministère de l'Enseignement Supérieur et de la Recherche Scientifique
+  * Agence des Systèmes d'Information et du Numérique (ASIN) chargée de la mise en oeuvre opérationnelle des programmes et projets entrant dans le cadre des stratégies 
+  * Le Rectorat principalement le département de Statistiques
+  * Les Etudiants
+  * Les Parents
+  * 
+* 
